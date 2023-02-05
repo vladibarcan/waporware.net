@@ -1,0 +1,122 @@
+    body,html
+    {
+
+        overflow: hidden;
+        background-image: url("../img/wall2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:0;
+        height: 100%;
+    }
+
+    footer
+    {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    nav
+    {
+        
+        background-color: #c0c0c0
+    }
+
+    a
+    {
+        padding-left: 0%;
+    }
+
+    p
+    {
+        font-weight: bold;
+    }
+
+    #profilo
+    {
+        display: none;
+        position:absolute;
+        margin: auto;
+        width: 60%;
+    }
+
+    #indirizzo
+    {
+        display: none;
+        width: 40%;
+        position:absolute;
+    }
+
+    
+
+    #main a:target[id]
+    {
+        display:block
+    }
+
+    #elemento
+    {
+        padding-left: 3%;
+        padding-top:2%;
+    }
+
+    a:focus
+    {
+        outline-style: groove;
+        outline-color: solid blue;
+    }
+
+    #img
+    {
+        margin:0;
+        text-align: center;
+    }
+
+    #umano
+    {
+        display: none;
+        width: 40%;
+        position:absolute;
+    }
+
+    #pcto
+    {
+        display: none;
+        width: 40%;
+        position:absolute;
+    }
+
+    #opzioni
+    {
+        display: none;
+        width: 40%;
+        position:absolute;
+    }
+
+    .container
+    {
+        padding: 0%;
+    }
+
+
+    #corpo
+    {
+        display: none;
+    }
+
+    #start
+    {
+        display: none;
+        outline: none;
+    }
+
+    #hour
+    {
+        border:solid darkgrey;
+    }
+
+
+    
+
+    

@@ -1,0 +1,52 @@
+.container
+{
+    width: 50%;
+    background-color: grey;
+    text-align: center;
+    margin-left: 500;
+    margin-right: -140;
+    margin-top: 50;
+    padding: 0;
+}
+
+#bar 
+{
+    width: 1%;
+    height: 30px;
+    background-color: #FF71CE;
+    text-align: center;
+    
+}
+
+#clippy
+{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    
+}
+
+body,html
+{
+    background-image: url(https://i.pinimg.com/originals/44/9e/05/449e058844d89d45822a44c9f5f60fe2.gif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#b
+{
+    margin-left: 500;
+    margin-right: -140;
+    margin-top: 50;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+#button
+{
+    text-align: center;
+    width: 15%;
+}
