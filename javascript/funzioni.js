@@ -18,12 +18,6 @@ setTimeout(function showBody()
 
 },1000)
 
-setTimeout(function startMusic()
-{
-  let a= new Audio("https://www.youtube.com/watch?v=cCq0P509UL4&t=30s");
-  a.play();
-},1000)
-
 function thisVolume(volume_value)
     {
         var myaudio = document.getElementById("audio");
@@ -377,3 +371,4 @@ function refreshTime()
 }
 
 setInterval(refreshTime, 1000);
+
