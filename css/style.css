@@ -39,6 +39,9 @@
         position:absolute;
         margin: auto;
         width: 60%;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
     }
 
    
@@ -60,11 +63,14 @@
         text-align: center;
     }
 
-    #pcto, #opzioni, #umano, #indirizzo
+    #pcto, #umano, #indirizzo
     {
         display: none;
         width: 40%;
         position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
     }
 
     #opzioni
