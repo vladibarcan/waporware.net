@@ -2,210 +2,38 @@
 <html lang="en">
 
 <head>
-  <title>W E B  S I T E </title>
+  <title>W E L C O M E</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    
     <link href="css/98.css-main/style.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/vhs/0.1.0/vhs.min.css">
+    <link href="css/styleBar.css" rel="stylesheet">
 
 </head>
 
-<body onload="showBody(), showStart()" id="body">
+<body onload="move()">
+  <main>
+    <div id="clippy">
+      <IMG SRC="https://64.media.tumblr.com/6c888d834bd6eb9e3baa8b4d1c5faeca/288dce0bf2fa2479-91/s500x750/147cba60f136f03ac917836732dd60e5a0c39b39.gifv" height="350">
+    </div>
 
-    
-  <main id="corpo">
-
-    <audio autoplay id="audio">
-      <source src="audio/audio.mp3" type="audio/mp3">
-    </audio>
-
-    <div id="elemento">
-      &ensp;&ensp;&ensp;&ensp;<a href="#" onclick="showIndirizzo()"><img src="img/icns/computer-4.png"></a><br>
-        <h8>Materie di indirizzo</h8>
-      </div>
-
-      <div id="elemento">
-        &ensp;&ensp;&ensp;&ensp;<a href="#" onclick="showUmano()"><img src="img/icns/materieU.png"></a><br>
-          <h8>Materie umanistiche</h8>
-        </div>
-
-      <div id="elemento">
-          &ensp;&ensp;&ensp;&ensp;<a href="#" onclick="showProfilo()""><img src="img/icns/users_key-4.png"></a><br>
-          &ensp;&ensp;&ensp;&ensp;<h8>Profilo</h8>
-        </div>
-
-      <div id="elemento">
-          &ensp;&ensp;&ensp;&ensp;<a href="#" onclick="showPCTO()""><img src="img/icns/globe_map-0.png"></a><br>
-          &ensp;<h8>Esperienza PCTO</h8>
-      </div>
-
-      <div id="elemento">
-        &ensp;&ensp;&ensp;&ensp;<a href="#" onclick="showOpzioni()""><img src="img/icns/options.png"></a><br>
-        &ensp;&ensp;&ensp;&ensp;&ensp;<h8>Opzioni</h8>
-      </div>
-
-
-     <div class="window" style="width: 40%" id="profilo">
-      <div class="title-bar" id="profilodrag">
-        <div class="title-bar-text">Profilo Personale</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close" onclick="closeProfilo()"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-6" id="img">
-              <img src="img/IMG_0867.PNG" height="330" style="padding-right: 50px;">
-            </div>
-            <div class="col-6" id="img">
-              <ul class="tree-view" style="width: 100%; padding: 0%;">
-                <h3>Benvenuto!</h3>
-              <p>Il mio nome è Barcan Vladut, ho 18 anni, e sono uno studente dell'IIS Marconi-Pieralisi di Jesi. Una delle mie piu grandi passioni fin da piccolo
-                è sempre stata informatica (nel caso non si fosse capito) e volevo ricreare attraverso il mio sito personale quella sensazione "magica" di quando ho utilizzato un PC per la mia prima volta.
-                Qui troverai tutto ciò che ho svolto durante tutto l'anno scolastico del quinto superiore, dai miei progetti
-                piu importanti delle materie di indirizzo come Informatica o Sistemi e Reti fino ai lavori di gruppo delle materie piu "umanistiche"
-                come Italiano o Inglese. Perciò rilassati, prendi una limonata fresca e goditi il sito!
-              </p>
-              <img src="img/icns/channels-2.png" height="30">
-              <a href="https://twitter.com/its_vladi_" target="_blank">Profilo Twitter</a>
-              <img src="img/icns/msn3-3.png">
-              <a href="https://www.instagram.com/its_vladi_/" target="_blank">Profilo Instagram</a>
-              <img src="img/icns/msie1-2.png" height="30">
-              <a href="https://www.iismarconipieralisi.edu.it/" target="_blank">Sito della scuola</a>
-              </ul>
-            </div>
+    <div class="container">
+      <div id="progressBar">
+        <div id="bar">
+          <div></div>
           </div>
-        </div>
       </div>
+    </div><br>
+
+    <div id="b">
+      <button id="button" disabled onclick="vai()">W&ensp;&ensp; E&ensp;&ensp; L&ensp;&ensp; C&ensp;&ensp; O&ensp;&ensp; M&ensp;&ensp; E&ensp;&ensp;</button>
     </div>
-
-    <div class="window" id="indirizzo" style="width: 40%">
-      <div class="title-bar" id="indirizzodrag">
-        <div class="title-bar-text">Materie di indirizzo</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close" onclick="closeIndirizzo()"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-6" id="img">
-              <img src="img/IMG_0865.PNG" height=330>
-            </div>
-            <div class="col-6">
-              <ul class="tree-view" style="width: 100%; padding: 0%; height: 320px;">
-                <h4 style="text-align: center;">Dai DB fino alla gestione di un progetto, sei nel posto giusto :)</h4><br><br>
-                &ensp;&ensp;<img src="img/icns/calendar-0.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/11ivVFoI7FJV_o3K94jd3uofbFmyTQLXc" target="_blank">GPOI</a><br><br>
-                &ensp;&ensp;<img src="img/icns/cylinder_database-1.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1tMJJTC-rZ0Uthub03SE9HG_x6m0BIHuW" target="_blank">Informatica</a><br><br>
-                &ensp;&ensp;<img src="img/icns/network_cool_two_pcs-0.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1WEN-FuegeWyxnguzr5E_pJ_jtBMkmVB4" target="_blank">Sistemi e Reti</a><br><br>
-                &ensp;&ensp;<img src="img/icns/odbc-5.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1Rp2JgZ-HHK2RpWDmRvs115yYSoAf7Nk-" target="_blank">TPSIT</a><br>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="window" style="width: 40%" id="umano">
-      <div class="title-bar" id="umanodrag">
-        <div class="title-bar-text">Materie umanistiche</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close" onclick="closeUmano()"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <div class="container" style="padding: 0%;">
-          <div class="row">
-            <div class="col-6" style="padding:0%" id="img">
-              <img src="img/Immagine.png" height="330">
-            </div>
-            <div class="col-6">
-              <ul class="tree-view" style="width: 100%;">
-                <h4>Uno,nessuno,centomila argomenti...</h4><br><br>
-                &ensp;&ensp;<img src="img/icns/ita.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1Ee5pJiTdD9T4Ev0myjlSyW3uPaBh14RB" target="_blank">Italiano</a>
-                &ensp;&ensp;<img src="img/icns/storia.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1Rqm_dP7KdE-DD9q2ukn7ZkogUxfxEP-q" target="_blank">Storia</a><br><br>
-                &ensp;&ensp;<img src="img/icns/religione.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1p4qnaDB6kkFzPvrYmuLdtRjTShQJEBbZ" target="_blank">Religione</a><br><br>
-                &ensp;&ensp;<img src="img/icns/civica.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1XTdBODpGFZk1BTRp1uNKCW7b4mJhpKgT" target="_blank">Ed.Civica</a><br><br>
-                &ensp;&ensp;<img src="img/icns/eng.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1nfMW3W3h7hRdqeRFl35rUB_k-eVJcNiu" target="_blank">Inglese</a><br><br>
-                &ensp;&ensp;<img src="img/icns/mate.png" height="30">&ensp;&ensp;<a href="https://drive.google.com/drive/u/0/folders/1hTET1fszbzinABVSS0IQ46qrdI2F5_Ep" target="_blank">Matematica</a><br>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="window" style="width:800px; height: 500px" id="pcto">
-      <div class="title-bar" id="pctodrag">
-        <div class="title-bar-text">Esperienza PCTO</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close" onclick="closePCTO()"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <div class="container" style="padding: 0%;">
-          <div class="row">
-            <div class="col-6">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.9490570254848!2d2.178865415536131!3d41.39691267926333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e153510245%3A0x68ba346bbb010993!2sFAIN%20Ascensores%20en%20Barcelona%20-%20Instalaci%C3%B3n%20y%20mantenimiento!5e0!3m2!1sit!2skr!4v1674400006976!5m2!1sit!2skr" width="400" height="300" style="size:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-6" style="padding-left: 20px;">
-              <ul class="tree-view" style="width: 100%;">
-                <h4>Un esperienza piena di alti e pochi bassi!</h4><br><br>
-                <p>Per quanto riguarda la mia esperienza PCTO ho avuto la fortuna di partecipare al progetto "Erasmus+", che mi ha permesso di sperimentare la mia prima "esperienza lavorativa" a Barcellona per un mese, dal 4 Luglio fino al 4 Agosto.
-                   Un esperienza più unica che rara per me, in quanto potevo mettermi alla prova non solo dal punto di vista lavorativo, ma anche organizzativo in quanto volevo essere indipendente all'100% sia per gli orari che per i trasporti in un paese totalmente estraneo a me.
-                  Ho lavorato in un azienda chiamata "FAIN", che si specializza nel montaggio e manutenzione di ascensori in tutta l'area di Barcellona e citta limitrofe come Badalona o Girona. Sarò sincero, non mi aspettavo di riparare ascensori perchè mi aspettavo
-                una mansione più vicina al percorso di studi che ho seguito, ma è stato comunque interessante lavorare come "ascensorista" perchè mi ha permesso di imparare nuove cose che altrimenti non avrei mai imparato.</p>
-
-                <p>Per informazioni piu dettagliate sulla mia esperienza all'estero, <a href="https://drive.google.com/drive/folders/1We7AqHaBK93sR5IAYRXmtdIRDcAhh5AP" target="_blank">clicca qui per essere reindirizzato alla relazione finale dell'esperienza.</a></p>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="window" style="width: 40%;" id="opzioni">
-      <div class="title-bar" id="opzionidrag">
-        <div class="title-bar-text">Opzioni</div>
-        <div class="title-bar-controls">
-          <button aria-label="Close" onclick="closeOpzioni()"></button>
-        </div>
-      </div>
-      <div class="window-body" style="width:100%">
-          <button onclick="music_stop()">Stop the music plz</button><br><br>
-          <button onclick="music_start()">Bring back the music</button><br><br>
-        </div>
-        <div>
-          <input type="radio" onclick="cambioVerde()" name="sfondo"> Classic Windows 98 Background<br><br>
-          <input type="radio" onclick="cambioNuvole()" name="sfondo"> Cloudy Sky<br><br>
-        </div>
-          <div class="field-row" style="width: 300px; margin:0">
-            <label for="range25">Volume:</label>
-            <label for="range26">Low</label>
-            <input id="range26" type="range" min="10" max="100" value="50" oninput="thisVolume(this.value)" onchange="thisVolume(this.value)"/>
-            <label for="range27">High</label><br><br>
-        </div>
-    </div>
-
   </main>
-
-  <footer id="start">
-    <nav class="navbar">
-            <a href="loading.html"><img src="img/icns/ostbbhrivxq81.png" height="26"></a>
-            <div id="hour">
-              <a id="tempo"></a>
-            </div>
-      </nav>
-  </footer>
-
+ 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -215,7 +43,7 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
-  <script src="javascript/funzioni.js"></script>
+  <script src="javascript/funzioneProgressBar.js"></script>
 </body>
 
 </html>

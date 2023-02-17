@@ -27,6 +27,6 @@ function move()
 
 function vai()
 {
-    window.open('index.html','_self');
+    window.open('home.html','_self');
 }
 

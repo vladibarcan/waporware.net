@@ -41,20 +41,7 @@
         width: 60%;
     }
 
-    #indirizzo
-    {
-        display: none;
-        width: 40%;
-        position:absolute;
-    }
-
-    
-
-    #main a:target[id]
-    {
-        display:block
-    }
-
+   
     #elemento
     {
         padding-left: 3%;
@@ -73,14 +60,7 @@
         text-align: center;
     }
 
-    #umano
-    {
-        display: none;
-        width: 40%;
-        position:absolute;
-    }
-
-    #pcto
+    #pcto, #opzioni, #umano, #indirizzo
     {
         display: none;
         width: 40%;
@@ -89,16 +69,18 @@
 
     #opzioni
     {
-        display: none;
-        width: 40%;
         position:absolute;
+        top:703px;
+        left:1153px;
+        bottom: 43px;
+        right:-1px;
     }
+
 
     .container
     {
         padding: 0%;
     }
-
 
     #corpo
     {
@@ -111,10 +93,6 @@
         outline: none;
     }
 
-    #hour
-    {
-        border:solid darkgrey;
-    }
 
 
     
